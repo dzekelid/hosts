@@ -30,7 +30,7 @@ apis:
   tags: Hosts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/hosts/master/_listings/datadog/tags-hosts-host-name-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/hosts/master/_listings/datadog/tags-hosts-host-name-delete.md
 x-common:
 - type: x-blog
   url: https://www.datadoghq.com/blog/
