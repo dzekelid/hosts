@@ -33,7 +33,7 @@ apis:
   tags: Hosts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/action-modifyhosts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/action-releasehosts-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
