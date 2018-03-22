@@ -14,9 +14,9 @@ tags:
 - Meetups
 - Media
 - Events
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/hosts/master/_listings/meetup/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/meetup/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Meetup
@@ -28,7 +28,7 @@ apis:
   tags: Hosts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/hosts/master/_listings/meetup/urlname-events-event-id-comments-comment-id-likes-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/meetup/urlname-events-event-id-comments-comment-id-likes-post.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
