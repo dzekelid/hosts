@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/action-releasehosts-get.md
-- name: AWS EC2 API Describe Hosts
-  description: Describes one or more of your Dedicated Hosts.
+- name: AWS EC2 API Modify Hosts
+  description: Modify the auto-placement setting of a Dedicated Host.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/
   baseURL: http:://{host}//
   tags: Hosts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/action-describehosts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/action-modifyhosts-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
