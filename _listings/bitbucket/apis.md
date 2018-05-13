@@ -26,9 +26,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/bitbucket/repositories-username-repo-slug-pipelines-config-ssh-known-hosts-known-host-uuid-put.md
-- name: Bitbucket Get Repositories Username Repo Slug Pipelines Config Ssh Known Hosts
-    Known Host Uu
-  description: Get repositories username repo slug pipelines config ssh known hosts
+- name: Bitbucket Update Repositories Username Repo Slug Pipelines Config Ssh Known
+    Hosts Known Host Uu
+  description: Put repositories username repo slug pipelines config ssh known hosts
     known host uu
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
@@ -36,9 +36,7 @@ apis:
   tags: Hosts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/bitbucket/repositories-username-repo-slug-pipelines-config-ssh-known-hosts-known-host-uuid-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/bitbucket/repositories-username-repo-slug-pipelines-config-ssh-known-hosts-known-host-uuid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/bitbucket/repositories-username-repo-slug-pipelines-config-ssh-known-hosts-known-host-uuid-put.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
