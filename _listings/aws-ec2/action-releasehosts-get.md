@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Release Hosts
   version: 1.0.0
+  description: When you no longer want to use an On-Demand Dedicated Host it can be
+    released.
 schemes:
 - http
 produces:
