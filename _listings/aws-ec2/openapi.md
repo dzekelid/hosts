@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS EC2
 x-complete: 1
@@ -107,4 +106,55 @@ paths:
           description: OK
       tags:
       - Hosts
----
+  /?Action=AllocateHosts:
+    get:
+      summary: Allocate Hosts
+      description: Allocates a Dedicated Host to your account.
+      operationId: allocatehosts
+      x-api-path-slug: actionallocatehosts-get
+      parameters:
+      - in: query
+        name: Filter.N
+        description: One or more filters
+        type: string
+      - in: query
+        name: HostId.N
+        description: The IDs of the Dedicated Hosts
+        type: string
+      - in: query
+        name: MaxResults
+        description: The maximum number of results to return for the request in a
+          single page
+        type: string
+      - in: query
+        name: NextToken
+        description: The token to retrieve the next page of results
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Host
+  /?Action=DescribeHostReservations:
+    get:
+      summary: Describe Host Reservations
+      description: |-
+        Describes Dedicated Host Reservations which are associated with Dedicated Hosts in
+                    your account.
+      operationId: describehostreservations
+      x-api-path-slug: actiondescribehostreservations-get
+      parameters:
+      - in: query
+        name: HostIdSet.N
+        description: The ID/s of the Dedicated Host/s that the reservation will be
+          associated            with
+        type: string
+      - in: query
+        name: OfferingId
+        description: The offering ID of the reservation
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Host Reservation

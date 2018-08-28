@@ -16,63 +16,78 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Hosts
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS EC2 API Describe Hosts
-  x-api-slug: aws-ec2-api
+- name: AWS EC2 API - Describe Hosts
+  x-api-slug: actiondescribehosts-get
   description: Describes one or more of your Dedicated Hosts.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/
-  baseURL: ://///?Action=DescribeHosts
-  tags: Hosts
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/actiondescribehosts-get-openapi.md
-- name: AWS EC2 API Modify Hosts
-  x-api-slug: aws-ec2-api
+- name: AWS EC2 API - Modify Hosts
+  x-api-slug: actionmodifyhosts-get
   description: Modify the auto-placement setting of a Dedicated Host.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/
-  baseURL: ://///?Action=ModifyHosts
-  tags: Hosts
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/actionmodifyhosts-get-openapi.md
-- name: AWS EC2 API Release Hosts
-  x-api-slug: aws-ec2-api
+- name: AWS EC2 API - Release Hosts
+  x-api-slug: actionreleasehosts-get
   description: When you no longer want to use an On-Demand Dedicated Host it can be
     released.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/
-  baseURL: ://///?Action=ReleaseHosts
-  tags: Hosts
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/actionreleasehosts-get-openapi.md
-- name: AWS EC2 API
-  x-api-slug: aws-ec2-api
-  description: Amazon Elastic Compute Cloud is a web service that provides resizable
-    compute capacity in the cloud. It is designed to make web-scale cloud computing
-    easier for developers. Amazon EC2s simple web service interface allows you to
-    obtain and configure capacity with minimal friction. It provides you with complete
-    control of your computing resources and lets you run on Amazon&rsquo;s proven
-    computing environment. Amazon EC2 reduces the time required to obtain and boot
-    new server instances to minutes, allowing you to quickly scale capacity, both
-    up and down, as your computing requirements change. Amazon EC2 changes the economics
-    of computing by allowing you to pay only for capacity that you actually use. Amazon
-    EC2 provides developers the tools to build failure resilient applications and
-    isolate themselves from common failure scenarios.
+- name: AWS EC2 API - Allocate Hosts
+  x-api-slug: actionallocatehosts-get
+  description: Allocates a Dedicated Host to your account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/
   baseURL: :///
-  tags: Hosts
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/actionallocatehosts-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/actionallocatehosts-get-openapi.md
+- name: AWS EC2 API - Describe Host Reservations
+  x-api-slug: actiondescribehostreservations-get
+  description: |-
+    Describes Dedicated Host Reservations which are associated with Dedicated Hosts in
+                your account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/actiondescribehostreservations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hosts/master/_listings/aws-ec2/actiondescribehostreservations-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.dynamodb.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.ec2.stack.network
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
 - type: x-documentation

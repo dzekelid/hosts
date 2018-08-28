@@ -21,42 +21,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /applications/{application_id}/hosts.{format}:
-    get:
-      summary: Get Applications Application  Hosts. Format
-      description: "This API endpoint returns a \npaginated list of hosts associated
-        with the given application. The time range for summary data is the last 10
-        minutes.\n\nApplication hosts can be filtered by hostname, or the list of
-        application host IDs.\n\nSee our documentation for a discussion and examples
-        of\nusing  filters \nand summary data output."
-      operationId: getApplicationsApplicationHosts.Format
-      x-api-path-slug: applicationsapplication-idhosts-format-get
-      parameters:
-      - in: path
-        name: application_id
-        description: Application ID
-        type: integer
-      - in: query
-        name: filter[hostname]
-        description: Filter by server hostname
-        type: string
-      - in: query
-        name: filter[ids]
-        description: Filter by application host ids
-        type: list
-      - in: query
-        name: page
-        description: Pagination index
-        type: integer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Applications
-      - Application
-      - ""
-      - Hosts.
-      - Format
   /applications/{application_id}/hosts/{id}.{format}:
     get:
       summary: Get Applications Application  Hosts  . Format
